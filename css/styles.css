@@ -11337,8 +11337,10 @@ header.masthead h1, header.masthead .h1 {
   padding: 3rem;
 }
 .showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
+  min-height: 30rem; 
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
